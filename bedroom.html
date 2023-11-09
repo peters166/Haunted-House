@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dracula's Mansion</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html
+        {
+            background-image: url('bedroom.png'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">
+        <button id = "warpbutton" onclick="visit()">Warp back to the start</button>
+    </a>
+    <h1>Mansion Exterior</h1>
+    <div class="grid">
+        <p id = "generaltext">
+            Dracula sleeps peacefully.
+            <br/>
+            It's a bit hard to believe he's a vampire when he looks almost human enough to be identical to the typical posh person.
+            <br/>
+            The time is right, so you approach for an ambush.
+        </p>
+        <p id = "draculatext">
+            Suddenly, Dracula's eyes flash open and is alerted of your presence.
+            <br/>
+            "What in the- How did you get here?"
+            <br/>
+            He opens a nearby drawer and surprisingly pulls out a gun. "It'd take a miracle if I ever see you again!"
+            <br/>
+            While it definitely seems like Dracula, the fact he is standing in full sunlight with the curtains open triggers your fight or flight response.
+        </p>
+        <img src="draculagun.png" class="centerimages"></img>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

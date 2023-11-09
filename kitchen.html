@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dracula's Mansion</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html
+        {
+            background-image: url('kitchen.png'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">
+        <button id = "warpbutton" onclick="visit()">Warp back to the start</button>
+    </a>
+    <h1>Mansion Exterior</h1>
+    <div class="grid">
+        <p id = "generaltext">
+            You're inside the kitchen. 
+            <br/>
+            Honestly, there seems to be nothing off about anything inside it.
+        </p>
+        <p id = "visittext">
+            Though on closer inspection.
+            <br/>
+            You see... cloves of garlic near a chopping board?
+            <br/>
+            Wouldn't hurt to grab it. Vampires hate garlic.
+        </p>
+    </div>
+    <a href="lobby.html">
+        <button id = "button" onclick="visit()">Go back to the lobby</button>
+    </a>
+    <script src="script.js"></script>
+</body>
+</html>

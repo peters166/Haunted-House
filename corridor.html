@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dracula's Mansion</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html
+        {
+            background-image: url('corridor.png'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">
+        <button id = "warpbutton" onclick="visit()">Warp back to the start</button>
+    </a>
+    <h1>Mansion Exterior</h1>
+    <div class="grid">
+        <p id = "generaltext">
+            You can hear Dracula snoring nearby. 
+            <br/>
+            The corridor leads to his bedroom.
+            <br/>
+            Proceed when ready.
+        </p>
+        <p id = "corridortext">
+            You're empty handed.
+            <br/>
+            You should probably go find something to kill him with.
+        </p>
+    </div>
+    <a href="bedroom.html">
+        <button id = "button" onclick="visit()">Enter the bedroom.</button>
+    </a>
+    <a href="lobby.html">
+        <button id = "button" onclick="visit()">Go back to the lobby</button>
+    </a>
+    <script src="script.js"></script>
+</body>
+</html>

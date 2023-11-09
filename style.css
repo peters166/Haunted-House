@@ -1,0 +1,43 @@
+@import url('https://fonts.google.com/specimen/Mystery+Quest');
+html
+{
+    font-family: 'Mystery Quest';
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.grid
+{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr, 3fr);
+}
+.grid > p 
+{
+    color: darkslategray;
+    background-color: orange;
+}
+.centerimages
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+#warpbutton
+{
+    font-family:'Mystery Quest';
+    color: rgb(126, 79, 29);
+    padding: 15px 20px;
+    text-align: center;
+    margin: 10px;
+    background-color: #ccb693;
+}
+#button
+{
+    font-family:'Mystery Quest';
+    color: #ccb693;
+    padding: 15px 20px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(126, 79, 29);
+}

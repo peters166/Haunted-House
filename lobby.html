@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dracula's Mansion</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html
+        {
+            background-image: url('lobby.png'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">
+        <button id = "warpbutton" onclick="visit()">Warp back to the start</button>
+    </a>
+    <h1>Mansion Exterior</h1>
+    <div class="grid">
+        <p id = "generaltext">
+            You're inside the lobby. 
+            <br/>
+            It seems to be empty.
+            <br/>
+            There seems to be a staircase leading upstairs and two doors leading to different hallways.</b>. 
+            <br/>
+            You can play it to <b>return back to the outside of the mansion</b>.
+        </p>
+        <p id = "visittext">
+            You have no idea where to go. 
+            <br/>
+            Maybe you should pick a random door to start with.
+        </p>
+    </div>
+    <a href="index.html">
+        <button id = "button" onclick="visit()">Go back outside?</button>
+    </a>
+    <a href="kitchen.html">
+        <button id = "button" onclick="visit()">Enter the left hallway</button>
+    </a>
+    <a href="corridor.html">
+        <button id = "button" onclick="visit()">Go up the stairs.</button>
+    </a>
+    <a href="guestroom.html">
+        <button id = "button" onclick="visit()">Enter the right hallway</button>
+    </a>
+    <script src="script.js"></script>
+</body>
+</html>

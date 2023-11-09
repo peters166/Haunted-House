@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dracula's Mansion</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html
+        {
+            background-image: url('mansion.png'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">
+        <button id = "warpbutton" onclick="visit()">Warp back to the start</button>
+    </a>
+    <h1>Mansion Exterior</h1>
+    <div class="grid">
+        <p id = "generaltext">
+            It's October 31st and Dracula's Mansion has risen after a century of slumber!!! 
+            <br/>
+            ...in the middle of Utica, New York. It has received some renovations throughout the years, no longer appearing as the castle as it once was.
+            <br/>
+            Don't worry, you have brought a <b>suspicious conch shell that you brought for twenty dollars</b>. 
+            <br/>
+            You can play it to <b>return back to the outside of the mansion</b>.
+        </p>
+        <p id = "visittext">
+            Dracula is actually quite kind to any guests that come in. However, that doesn't matter.
+            <br/>
+            You hate him! So you woke up extra early to be the first one there to get to the mansion!
+            <br/>
+            Your objective is to find your way to his room and kill him. However, you have entered in completely unarmed.
+            You need to find a way to also arm yourself before you actually arrive. 
+        </p>
+    </div>
+    <a href="lobby.html">
+        <button id = "button" onclick="visit()">Enter the mansion.</button>
+    </a>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dracula's Mansion</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html
+        {
+            background-image: url('guestroom.png'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">
+        <button id = "warpbutton" onclick="visit()">Warp back to the start</button>
+    </a>
+    <h1>Mansion Exterior</h1>
+    <div class="grid">
+        <p id = "generaltext">
+            You're inside the guest room. 
+            <br/>
+            A whole lot of nothing inside. Nobody else has entered the mansion yet, as the invitation calls for the time to be evening.
+        </p>
+        <p id = "visittext">
+            You see a display with a bottle that reads: "Antique Holy Water, preserved 1476"
+            <br/>
+            You really do question why Dracula would preserve a bottle of holy water this long.
+            <br/>
+            Wouldn't hurt to grab it. Vampires hate holy water.
+        </p>
+    </div>
+    <a href="index.html">
+        <button id = "button" onclick="visit()">Go back to the lobby</button>
+    </a>
+    <script src="script.js"></script>
+</body>
+</html>
